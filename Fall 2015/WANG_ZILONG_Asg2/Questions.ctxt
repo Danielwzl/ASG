@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=point\ numOfChoises\ answer\ question\ choices
+comment0.target=Questions(int,\ int,\ char,\ java.lang.String,\ java.lang.String[])
+comment0.text=\ \ \r\n\ \ This\ is\ a\ constructor\ of\ questions\ class\r\n
+comment1.params=
+comment1.target=int\ getPoint()
+comment1.text=\r\n\ This\ is\ a\ getter\r\n\ @return\ <point>\r\n
+comment2.params=
+comment2.target=java.lang.String[]\ getChoices()
+comment2.text=\r\n\ This\ is\ a\ getter\r\n\ @return\ <choices>\r\n
+comment3.params=
+comment3.target=int\ getNumOfChoices()
+comment3.text=\r\n\ This\ is\ a\ getter\r\n\ @return\ <numOfChoises>\r\n
+comment4.params=
+comment4.target=char\ getAnswer()
+comment4.text=\r\n\ This\ is\ a\ getter\r\n\ @return\ <answer>\r\n
+comment5.params=
+comment5.target=java.lang.String\ getQuestion()
+comment5.text=\r\n\ This\ is\ a\ getter\r\n\ @return\ <question>\r\n
+numComments=6

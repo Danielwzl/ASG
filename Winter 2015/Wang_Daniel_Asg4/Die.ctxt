@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Die()
+comment0.text=\ Name\:\ Die\r\n\ parameters\:\ none\r\n\ purpose\:\ to\ create\ a\ constructor\ of\ Die\ class\ in\ order\ to\ roll\ the\ dice\r\n\ return\ type\:\ none\r\n\ return\:\ none\r\n
+comment1.params=
+comment1.target=int\ getTopValue()
+comment1.text=\ Name\:\ getTopValue\r\n\ parameters\:\ none\r\n\ purpose\:\ to\ get\ thhe\ face\ value\ of\ the\ dice\ being\ rolled\r\n\ return\ type\:\ int\r\n\ return\:\ topValue\r\n
+comment2.params=
+comment2.target=void\ roll()
+comment2.text=\ Name\:\ roll\r\n\ parameters\:\ none\r\n\ purpose\:\ to\ roll\ the\ dice\r\n\ return\ type\:\ void\r\n\ return\:\ none\r\n
+numComments=3

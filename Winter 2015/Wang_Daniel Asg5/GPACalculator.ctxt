@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\ Name\:\ GPACalculator\r\n\ parameters\:\ none\r\n\ purpose\:\ to\ let\ users\ select\ file\ and\ show\ the\ information\ on\ the\ screen\ \r\n\ return\ type\:\ void\r\n\ return\:\ none\r\n
+comment1.params=prompt
+comment1.target=java.lang.String\ selectFile(java.lang.String)
+comment1.text=\ Name\:\ selectFile\r\n\ parameters\:\ prompt\r\n\ purpose\:\ subfunction\ that\ to\ select\ file\r\n\ return\ type\:\ String\r\n\ return\:\ fileChooser.getSelectedFile().getPath()\r\n
+numComments=2

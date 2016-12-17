@@ -1,0 +1,4 @@
+suba	0001	A+
+sUbb	0000	a
+SDAF	1000	a-
+

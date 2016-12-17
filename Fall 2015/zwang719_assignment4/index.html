@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- 
+Assignment 4
+Name: Zilong Wang 
+Course: COMP 2511   
+-->
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel's Game</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="A4.js"></script>
+</head>
+
+<body>
+    <div class="mainPage">
+        <h1>Daniel's Game</h1>
+        <div class="container">
+            <form method="post" action="http://ins.mtroyal.ca/~nkhemka/2511/process.php" id="form1">
+
+                <fieldset>
+
+                    <p>
+                        <label>player 1</label>
+                        <input type="text" name="Player1">
+                    </p>
+                    <p>
+                        <label>player 2</label>
+                        <input type="text" name="Player2">
+                    </p>
+                    <button id="play" type="submit">play</button>
+
+                </fieldset>
+
+            </form>
+            <div id="notice">
+                <p>Hello</p>
+            </div>
+            <div id="score">
+                <p>
+                    <Strong>Current Total Score</Strong>
+                </p>
+                <p id="score1"><span id="p1"></span>: <span id="pt1">0</span>pt</p>
+                <p id="score2"><span id="p2"></span>: <span id="pt2">0</span>pt</p>
+            </div>
+        </div>
+        <div class="playArea">
+            <nav>
+                <ul class="dice">
+                    <li>
+
+                        <div class="f1">
+                            <div class="die"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="f2">
+                            <div class="die"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="f3">
+                            <div class="die"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="f4">
+                            <div class="die"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="f5">
+                            <div class="die"></div>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="rollTheDice">
+                <form method="post" action="http://ins.mtroyal.ca/~nkhemka/2511/process.php" class="rollTheDice">
+                    <button id="roll" type="submit">Roll the dice</button>
+                </form>
+            </div>
+            <div class="reRoll">
+                <P id="instruction">Click on die to keep them, and have only 1 chance to re-roll the others.
+                    <br/> And you can submit your score right away!</P>
+                <form method="post" action="http://ins.mtroyal.ca/~nkhemka/2511/process.php" class="checkBox">
+                    <label id="2k">
+                        <input type="radio" name="total" value="2" disabled>2 of Kinds</label>
+                    <label id="3k">
+                        <input type="radio" name="total" value="3" disabled>3 of Kinds</label>
+                    <label id="4k">
+                        <input type="radio" name="total" value="4" disabled>4 of Kinds</label>
+                    <label id="5k">
+                        <input type="radio" name="total" value="5" disabled>5 of Kinds</label>
+                    <label id="6k">
+                        <input type="radio" name="total" value="6" disabled>Full house</label>
+                </form>
+                <button id="reroll">re-roll</button>
+                <button id="send">score</button>
+            </div>
+            <div>
+                <button id="newGame">New Game</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <hr/>Zilong Wang
+        <br/>COMP 2511 Asg4</footer>
+</body>
+
+</html>

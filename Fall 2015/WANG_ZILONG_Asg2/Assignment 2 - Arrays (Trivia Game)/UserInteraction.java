@@ -1,0 +1,106 @@
+/**
+ * Methods used to interact with the user 
+ * @author Jordan Kidney
+ * @author Bill Paterson (version 2)
+ * @version 2.0
+ * 
+ * Last Modified:   Sept 4, 2015 - added print, println and adjusted getChar message
+ *                  Jan 8, 2013 - Added yesNo Method
+ *                  Jan 7, 2013 - Created
+ */
+import java.util.*;
+
+public class UserInteraction
+{
+    private Scanner input = null;
+    
+    public UserInteraction() { input = new Scanner(System.in); }
+    
+    /**
+     * Prints the given message to the user and waits for them 
+     * to enter an integer
+     * @param message the message to print tot he user
+     */
+    public int getInt(String message)
+    {
+        System.out.print(message);
+        return input.nextInt();
+    }
+    
+     /**
+     * Prints the given message to the user and waits for them 
+     * to enter a string/character and hit enter. If a string is entered
+     * the first character of the string is returned and the rest of the string is 
+     * removed from the input stream
+     * @returns returns the character entered by the user 
+     */
+    public char getChar(String message)
+    {
+        String userReply = "";
+        char userData = ' ';
+        System.out.print(message+"-->");
+        userReply = input.nextLine().toUpperCase();
+        // make sure the user did not just hit enter
+        if(!userReply.isEmpty())
+           userData = userReply.charAt(0);
+        
+        return userData;  
+    }
+    /**
+     * Prints the given message to the user and waits for them 
+     * to enter a string ( either yes or no )
+     * @returns tru for a yes reply, false otherwise
+     */
+    public boolean yesNo(String message)
+    {
+        String userReply = "";
+        boolean result = false;
+        System.out.print(message + "(y,n)");
+        userReply = input.nextLine();
+        // make sure the user did not just hit enter
+        if(!userReply.isEmpty())
+        {
+            switch(userReply.charAt(0))
+            {
+                case 'y':
+                case 'Y': result = true;
+                          break;
+            }
+        }
+
+        return result;
+    }
+    
+    /**
+     * pauses the program untill the user hits enter 
+     */
+    public void pause()
+    {
+      System.out.println("<hit enter to continue>");
+      input.nextLine();
+    }
+    
+     /**
+     * Print a line of text to the reporting output device
+     *
+     * @param  outBuffer   the text to output
+     */
+    public void println(String outBuffer)
+    {
+        print(outBuffer+"\n");
+    }
+
+    /**
+     * Write text to the reporting output device
+     *
+     * @param  outBuffer   text to output
+     */
+    public void print(String outBuffer)
+    {
+        System.out.print(outBuffer);
+    }
+
+    
+ 
+  
+}

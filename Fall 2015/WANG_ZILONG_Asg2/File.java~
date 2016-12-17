@@ -1,0 +1,13 @@
+import java.util.Scanner;
+import java.io.*;
+
+public class File
+{
+    public FileInputStream readFile() throws IOException
+    {
+        Scanner scan = new Scanner(System.in);
+        String fileName = "";
+        System.out.print();
+        return new FileInputStream(scan.nextLine() + ".txt");
+    }
+}

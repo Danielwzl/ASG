@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=file
+comment0.target=FileReader(java.io.FileInputStream)
+comment0.text=\ \ \r\n\ \ This\ is\ a\ constructor\ of\ FileReader\ class\r\n\ \ this\ is\ for\ getting\ file\ from\ main\ class\ \r\n\ \ and\ passing\ the\ question\ objects\ into\ TriviaGameSystem\ class\r\n\ \ @param\ <file>\ <file\ from\ user\ input>\ \r\n
+comment1.params=
+comment1.target=Questions[]\ storeData()
+comment1.text=\ \ \r\n\ \ This\ method\ is\ to\ read\ file\ and\ put\ elements\ into\ question\ class\r\n\ \ and\ then\ put\ the\ Question\ objects\ into\ array\r\n\ \ @multiply\ return\ <questions\:\ array\ contains\ object\ of\ Question\ class>\r\n\ \ @multiply\ return\ <null\:\ if\ the\ file\ has\ no\ content,\ "null\ pointer"\ will\ be\ handled\ in\ the\ class\ where\ this\ object\ being\ used>\r\n
+numComments=2

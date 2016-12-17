@@ -1,0 +1,26 @@
+4
+1 C 4
+what is the capital of Australia?
+Sydney
+Melbourne
+Canberra
+Perth
+2 A 4
+Ionic, Doric and Corinthian are all orders of what important structure?
+Columns
+Arches
+Domes
+Doors
+1 D 4
+In what country was origami invented?
+China
+Canada
+Russia
+Japan
+23 B 5
+What does the computer related acronym 'WYSIWYG' stand for?
+Where Your System Is Worded You Get.
+What You See Is What You Get.
+When Your System Is Winning You're Growing.
+What You See Is What You Goat
+Wow you can't do that

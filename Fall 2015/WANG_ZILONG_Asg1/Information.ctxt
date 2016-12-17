@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=day\ time\ temperature
+comment0.target=Information(int,\ int,\ double)
+comment0.text=\ \ \r\n\ \ This\ is\ a\ constructor\ of\ Information\ class\r\n
+comment1.params=
+comment1.target=int\ getDay()
+comment1.text=\r\n\ This\ is\ a\ getter\r\n\ @return\ <day>\r\n
+comment2.params=
+comment2.target=int\ getTime()
+comment2.text=\r\n\ This\ is\ a\ getter\r\n\ @return\ <time>\r\n
+comment3.params=
+comment3.target=double\ getTemperature()
+comment3.text=\r\n\ This\ is\ a\ getter\r\n\ @return\ <temperature>\r\n
+numComments=4

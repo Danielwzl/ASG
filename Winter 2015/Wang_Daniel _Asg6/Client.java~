@@ -1,0 +1,128 @@
+import java.util.*;
+
+public class Client
+{
+    private String name, gender, genderSought, interest = "";
+    private int myMatchIndex;
+    private Scanner scan = new Scanner(System.in);
+    private ArrayList<String> interests = new ArrayList<String>();
+
+    public Client(String name, String gender, String genderSought)
+    {
+        this.name = name;
+        this.gender = gender;
+        this.genderSought= genderSought;
+    }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    public String getName()
+    {
+        return name;
+    }
+
+    public void setGender(String gender)
+    {
+        this.gender = gender;
+    }
+
+    public String getGender()
+    {
+        return gender;
+    }
+
+    public void setGenderSought(String genderSought)
+    {
+        this.genderSought = genderSought;
+    }
+
+    public String getGenderSought()
+    {
+        return genderSought;
+    }
+
+    public void setMyMatchIndex(int myMatchIndex)
+    {
+        this.myMatchIndex = myMatchIndex;
+    }
+
+    public int getMyMatchIndex()
+    {
+        return myMatchIndex;
+    }
+
+    public ArrayList<String> getInterests()
+    {
+        return interests;
+    }
+
+    public void addInterest(String interest)
+    {
+        interests.add(interest);
+        
+        this.interest += " " + interest;
+    }
+
+    public boolean isGender(String gender)
+    {
+        boolean isMatched =false;
+        
+        if(getGender().equals(gender))
+        {
+            isMatched = true;
+        }
+
+        return isMatched;
+    }
+
+    public boolean isGenderSought(String genderSought)
+    {
+        boolean isMatched = false;
+
+        if(getGenderSought().equals(genderSought) || getGenderSought().equals("E"))
+        {
+            isMatched = true;
+        }
+        
+        return isMatched;
+    }
+
+    public int numMatchingInterests(Client otherClient)
+    {
+        int numInterests = 0;
+        
+        for(int i = 0; i < otherClient.getInterests().size(); i++)
+        {
+            String interest1 = otherClient.getInterests().get(i);
+
+            for(int k = 0; k < getInterests().size(); k++) 
+            {
+                String interest2  = getInterests().get(k);
+                
+                if(interest2.equals(interest1))
+                {
+                    numInterests++;
+                }            
+            }        
+        }
+
+        return numInterests;
+    }
+
+    public String toString()
+    {
+        String match = "(Matched)";
+
+        switch(myMatchIndex)
+        {
+            case -1: match = "(Not matched)";
+        }  
+
+        String result = name + gender + " " + genderSought + interest + " " + match + "\n";
+
+        return result;
+    }
+}

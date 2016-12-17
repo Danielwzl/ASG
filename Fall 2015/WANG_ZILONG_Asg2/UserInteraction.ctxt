@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=UserInteraction()
+comment1.params=message
+comment1.target=int\ getInt(java.lang.String)
+comment1.text=\r\n\ Prints\ the\ given\ message\ to\ the\ user\ and\ waits\ for\ them\ \r\n\ to\ enter\ an\ integer\r\n\ @param\ message\ the\ message\ to\ print\ to\ the\ user\r\n
+comment2.params=message
+comment2.target=char\ getChar(java.lang.String)
+comment2.text=\r\n\ Prints\ the\ given\ message\ to\ the\ user\ and\ waits\ for\ them\ \r\n\ to\ enter\ a\ string/character\ and\ hit\ enter.\ If\ a\ string\ is\ entered\r\n\ the\ first\ character\ of\ the\ string\ is\ returned\ and\ the\ rest\ of\ the\ string\ is\ \r\n\ removed\ from\ the\ input\ stream\r\n\ @returns\ returns\ the\ character\ entered\ by\ the\ user\ \r\n
+comment3.params=message
+comment3.target=boolean\ yesNo(java.lang.String)
+comment3.text=\r\n\ Prints\ the\ given\ message\ to\ the\ user\ and\ waits\ for\ them\ \r\n\ to\ enter\ a\ string\ (\ either\ yes\ or\ no\ )\r\n\ @returns\ tru\ for\ a\ yes\ reply,\ false\ otherwise\r\n
+comment4.params=
+comment4.target=void\ pause()
+comment4.text=\r\n\ pauses\ the\ program\ untill\ the\ user\ hits\ enter\ \r\n
+comment5.params=outBuffer
+comment5.target=void\ println(java.lang.String)
+comment5.text=\r\n\ Print\ a\ line\ of\ text\ to\ the\ reporting\ output\ device\r\n\r\n\ @param\ \ outBuffer\ \ \ the\ text\ to\ output\r\n
+comment6.params=outBuffer
+comment6.target=void\ print(java.lang.String)
+comment6.text=\r\n\ Write\ text\ to\ the\ reporting\ output\ device\r\n\r\n\ @param\ \ outBuffer\ \ \ text\ to\ output\r\n
+numComments=7

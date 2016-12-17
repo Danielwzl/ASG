@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=fileName
+comment0.target=MatchMaker(java.lang.String)
+comment0.text=\ Name\:\ MatchMaker\r\n\ parameters\:\ fileName\r\n\ purpose\:\ get\ the\ fileName\ of\ gender\ passed\ in\ constructor\ and\ pass\ it\ to\ DateHelperSystem\ class\r\n\ return\ type\:\ none\r\n\ return\:\ none\r\n
+comment1.params=
+comment1.target=void\ printClients()
+comment1.text=\ Name\:\ printClients\r\n\ parameters\:\ none\r\n\ purpose\:\ print\ all\ clients\ information\ from\ clients\ list\r\n\ return\ type\:\ void\r\n\ return\:\ none\r\n
+comment2.params=gender
+comment2.target=void\ printClientsGender(java.lang.String)
+comment2.text=\ Name\:\ printClientsGender\r\n\ parameters\:\ gender\r\n\ purpose\:\ print\ clients\ selected\ from\ each\ gender\r\n\ return\ type\:\ void\r\n\ return\:\ none\r\n
+comment3.params=
+comment3.target=void\ printMatches()
+comment3.text=\ Name\:\ printMatches\r\n\ parameters\:\ none\r\n\ purpose\:\ print\ clients\ who\ are\ matched\ with\ others\r\n\ return\ type\:\ void\r\n\ return\:\ none\r\n
+comment4.params=
+comment4.target=void\ printUnmatchedClients()
+comment4.text=\ Name\:\ printUnmatchedClients\r\n\ parameters\:\ none\r\n\ purpose\:\ print\ unmatched\ clients\ \r\n\ return\ type\:\ void\r\n\ return\:\ none\r\n
+comment5.params=gender
+comment5.target=void\ printUnmatchedClients(java.lang.String)
+comment5.text=\ Name\:\ printUnmatchedClients\r\n\ parameters\:\ gender\r\n\ purpose\:\ print\ unmatched\ clients\ with\ different\ genders\r\n\ return\ type\:\ void\r\n\ return\:\ none\r\n
+comment6.params=newbie
+comment6.target=java.lang.String\ addClient(Client)
+comment6.text=\ Name\:\ addClient\r\n\ parameters\:\ newbie\r\n\ purpose\:\ add\ the\ new\ client\ to\ clients\ list\ and\ get\ the\ matching\ result\ of\ he\ or\ she\ from\ DatingHelperSystem\ class\r\n\ return\ type\:\ String\r\n\ return\:\ DatingSystemHelper.makeMatch(newbie,\ allClients)\r\n
+numComments=7

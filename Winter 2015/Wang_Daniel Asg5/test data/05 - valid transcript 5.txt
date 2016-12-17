@@ -1,0 +1,9 @@
+aaaa	1111	D
+bbbb	2222	F
+cccc	3333	D
+dddd	4444	F
+eeee	5555	D
+ffff	6666	F
+gggg	7777	D
+hhhh	8888	F
+iiii	9999	D

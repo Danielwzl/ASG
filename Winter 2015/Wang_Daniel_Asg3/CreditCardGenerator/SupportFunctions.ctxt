@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=expiryMonth\ firstNameInitial\ surnameInitial
+comment0.target=java.lang.String\ generateCardNo(int,\ char,\ char)
+comment0.text=\ Name\:\ generateCardNo\u3000\r\n\ parameters\:\ expiryMonth,\ firstNameInitial,\ surnameInitial.\r\n\ purpose\:\ randomly\ generates\ a\ 16-digit\ rewards\ card\ number,\ subject\ to\ constraints\ (1)\ through\ (4)\r\n\ return\ type\:\ String\r\n\ return\:\ 4\ groups\ of\ generated\ numbers(eg.9999\ 9999\ 9999\ 9999)\r\n
+comment1.params=name
+comment1.target=java.lang.String\ formatName(java.lang.String)
+comment1.text=\ Name\:\ formatName\u3000\r\n\ parameters\:\ name\r\n\ purpose\:\ convert\ a\ name\ from\ input\ to\ a\ formatted\ name\ \r\n\ return\ type\:\ String\r\n\ return\:\ name\ (eg.\ bilBo\ to\ Bilbo)\r\n
+comment2.params=
+comment2.target=java.util.GregorianCalendar\ expiryTime()
+comment2.text=\ Name\:\ expiryTime\u3000\r\n\ parameters\:\ expiryDate\r\n\ purpose\:\ get\ next\ year\r\n\ return\ type\:\ Calendar\r\n\ return\:\ expiryDate\ (eg\ 2015\ +\ 1\ \=\ 2016)\r\n
+comment3.params=nameInitial
+comment3.target=int\ intialNumber(char)
+comment3.text=\ Name\:\ initialNumber\u3000\r\n\ parameters\:\ nameInitial\r\n\ purpose\:\ turn\ letter\ into\ Ascii\ number\ and\ get\ a\ digit\ of\ credit\ card\ \ \r\n\ return\ type\:\ int\r\n\ return\:\ number\r\n
+comment4.params=oneDigit\ thousandsDigit\ tensDigit\ hundredsDigit
+comment4.target=int\ checkSum(int,\ int,\ int,\ int)
+comment4.text=\ Name\:\ checkSum\r\n\ parameters\:\ oneDigit\ thousandsDigit\ tensDigit\ hundredsDigit\r\n\ purpose\:\ test\ check\ sum\ from\ exsiting\ io.txt\ results\r\n\ return\ type\:\ int\r\n\ return\:\ number\r\n
+numComments=5

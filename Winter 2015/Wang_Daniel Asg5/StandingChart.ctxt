@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=maxPossible\ granularity\ gpa
+comment0.target=StandingChart(int,\ int,\ double)
+comment0.text=\ Name\:\ StandingChart\r\n\ parameters\:\ maxPossible,\ granularity,\ gpa\r\n\ purpose\:\ pass\ the\ values\ of\ parameters\ to\ class\ variables\ and\ verify\ the\ validity\ \r\n\ return\ type\:\ none\r\n\ return\:\ none\ \r\n
+comment1.params=maxPossible
+comment1.target=void\ setMaxPossible(int)
+comment1.text=\ Name\:\ setMaxPossible\r\n\ parameters\:\ maxPossible\r\n\ purpose\:\ pass\ the\ value\ of\ parameter\ to\ class\ variable\ \r\n\ return\ type\:\ void\r\n\ return\:\ none\r\n
+comment2.params=granularity
+comment2.target=void\ setGranularity(int)
+comment2.text=\ Name\:\ setGranularity\r\n\ parameters\:\ maxPossible\r\n\ purpose\:\ pass\ the\ value\ of\ parameter\ to\ class\ variable\ \r\n\ return\ type\:\ void\r\n\ return\:\ none\r\n
+comment3.params=gpa
+comment3.target=void\ setGPA(double)
+comment3.text=\ Name\:\ setGPA\r\n\ parameters\:\ gpa\r\n\ purpose\:\ pass\ the\ value\ of\ parameter\ to\ class\ variable\ \r\n\ return\ type\:\ void\r\n\ return\:\ none\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\ Name\:\ toString\r\n\ parameters\:\ none\r\n\ purpose\:\ to\ generate\ the\ standing\ chart\ and\ make\ a\ arrow\ pointing\ at\ the\ right\ position\r\n\ return\ type\:\ String\r\n\ return\:\ none\r\n
+numComments=5

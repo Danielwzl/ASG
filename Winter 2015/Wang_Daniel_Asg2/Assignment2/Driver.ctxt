@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ userInterface()
+comment0.text=\ Name\:\ userInterface\ \u3000\r\n\ parameters\:\ height\=m;\ weight\=kg;\ gae;\ gender;\r\n\ purpose\:\ offer\ a\ API\ for\ users\ and\ report\ the\ test\ results\ to\ them\r\n\ return\ type\:\ \r\n\ return\:\ \r\n
+numComments=1

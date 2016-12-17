@@ -1,0 +1,24 @@
+
+Enter cardholder name: bilbo baggins
+
+Information for printed credit card:
+
+Cardholder	Bilbo Baggins
+Card No.	2974 5764 8830 3248
+Expiry Date	03/16
+
+Enter cardholder name: FRODO BAGGINS
+
+Information for printed credit card:
+
+Cardholder	Frodo Baggins
+Card No.	7488 3196 5630 1256
+Expiry Date	03/16
+
+Enter cardholder name: Samwise Gamgee
+
+Information for printed credit card:
+
+Cardholder	Samwise Gamgee
+Card No.	3156 1283 4030 6614
+Expiry Date	03/16

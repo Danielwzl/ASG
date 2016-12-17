@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=game
+comment0.target=GamingInterface(Game)
+comment1.params=
+comment1.target=void\ welcome()
+comment1.text=\r\n\ To\ print\ welcome\ page\r\n
+comment2.params=
+comment2.target=void\ end()
+comment2.text=\r\n\ to\ print\ ending\r\n
+comment3.params=
+comment3.target=void\ showWorld()
+comment3.text=\r\n\ to\ display\ the\ world\r\n
+comment4.params=
+comment4.target=void\ showPopulation()
+comment4.text=\r\n\ to\ show\ the\ population\ page\r\n
+comment5.params=
+comment5.target=int\ askUserInput()
+comment5.text=\r\n\ to\ ask\ user\ enter\ the\ steps\r\n\ @return\ <steps\ that\ user\ entered>\r\n\ @return\ <default\ step\ is\ 1\ if\ user\ enter\ something\ wrong>\r\n
+comment6.params=
+comment6.target=void\ pause()
+comment6.text=\r\n\ to\ pause\ the\ game\r\n
+comment7.params=
+comment7.target=void\ flush()
+comment7.text=\r\n\ to\ flush\ the\ screen\r\n
+numComments=8

@@ -1,0 +1,130 @@
+import java.util.*;
+import java.io.File;
+import java.io.IOException;
+
+public class DatingSystemHelper
+{
+    public static void readResults(String fileName, ArrayList<Client> allClients) throws IOException
+    {
+        File file = new File(fileName);
+        Scanner scan = new Scanner(file);
+
+        while(scan.hasNext())
+        {
+            String name = scan.nextLine(),
+            gender = scan.next(),
+            sought = scan.next();
+
+            Client client = new Client(name, gender, sought);
+
+            int numberOfInterests = scan.nextInt();
+
+            for(int i = 0; i < numberOfInterests; i++ )  
+            {
+                client.addInterest(scan.next());
+            }
+
+            client.setMyMatchIndex(scan.nextInt());
+            
+            scan.nextLine();
+
+            allClients.add(client);
+        }
+    }
+
+    public static Client addClient(Scanner kb)
+    {
+        int numberOfInterests = 0;
+
+        String interest = "";
+
+        kb = new Scanner(System.in);
+        System.out.print("enter client firstName: ");
+        String firstName = kb.next().toUpperCase();
+        
+        System.out.print("enter client lastName: ");
+        String lastName = kb.next().toUpperCase();   
+        
+        System.out.print("enter client gender (M/F): ");
+        String gender = kb.next().toUpperCase();
+
+        while(!(gender.equals("M") || gender.equals("F")))
+        {
+            System.out.print("invalid input! enter client gender (M/F): ");
+            gender = kb.next().toUpperCase();
+        }
+
+        System.out.print("enter client gender sought (M/F/E): ");
+        String sought = kb.next().toUpperCase();
+
+        while(!(sought.equals("M") || sought.equals("F") || sought.equals("E")))
+        {
+            System.out.print("invalid input! enter client gender (M/F): ");
+            sought = kb.next().toUpperCase();
+        }
+
+        Client newbie = new Client(firstName + " " + lastName, gender, sought);
+
+        do{   
+            System.out.print("Do you have any interests.Type N to finish(MAX = 10): ");
+            interest = kb.next().toUpperCase();
+
+            if(!interest.equals("N"))
+            {
+                newbie.addInterest(interest);
+            }
+
+            numberOfInterests++;
+        }while(numberOfInterests < 10 && !interest.equals("N"));
+
+        newbie.setMyMatchIndex(-1);
+
+        return newbie;
+    }
+
+    public static String makeMatch (Client clientToMatch, ArrayList<Client> allClients)
+    {
+        String result;
+        boolean matched = false;
+        boolean similarGenderRequest;
+        String genderOfClientToMatch;
+        String genderSoughtForClientToMatch;
+        Client otherClient = null;
+        int clientToMatchIndex = allClients.indexOf(clientToMatch);
+        int matchIndex = -1;
+
+        if (clientToMatch.getMyMatchIndex() == -1)
+        {
+            genderOfClientToMatch = clientToMatch.getGender(); 
+            genderSoughtForClientToMatch = clientToMatch.getGenderSought();
+
+            for (int i = 0; i < allClients.size() && !matched; i += 1)
+            {
+                otherClient = allClients.get(i);
+                similarGenderRequest = (otherClient.isGenderSought(genderOfClientToMatch)
+                    || otherClient.isGenderSought("E"))
+                && ( genderSoughtForClientToMatch.equals("E") 
+                    || (otherClient.isGender(genderSoughtForClientToMatch)));
+                if (otherClient.getMyMatchIndex() == -1 && i != clientToMatchIndex && similarGenderRequest 
+                && clientToMatch.numMatchingInterests(otherClient) >= 3 )
+                {
+                    matched = true;
+                    matchIndex = i;
+                }
+            }
+
+            if (matched)
+            {
+                clientToMatch.setMyMatchIndex(matchIndex);
+                otherClient.setMyMatchIndex(clientToMatchIndex);
+                result = clientToMatch.getName() + " is matched with " + otherClient.getName();
+            }
+            else
+                result = "No match found";
+        }
+        else
+            result = "Already matched - request ignored";
+
+        return result;     
+    }
+}

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=input
+comment0.target=Transcript(java.io.FileInputStream)
+comment0.text=\ Name\:\ Transcript\r\n\ parameters\:\ input\r\n\ purpose\:\ pass\ the\ value\ of\ parameter\ to\ class\ variable\ \r\n\ return\ type\:\ none\r\n\ return\:\ none\r\n
+comment1.params=
+comment1.target=boolean\ hasNextCourse()
+comment1.text=\ Name\:\ hasNextCourse\r\n\ parameters\:\ none\r\n\ purpose\:\ to\ check\ if\ there\ is\ next\ token\ in\ the\ file\r\n\ return\ type\:\ boolean\r\n\ return\:\ scanFile.hasNext()\r\n
+comment2.params=
+comment2.target=Course\ nextCourse()
+comment2.text=\ Name\:\ nextCourse\r\n\ parameters\:\ none\r\n\ purpose\:\ to\ read\ the\ tokens\ which\ are\ valid\ from\ files\ and\ pass\ them\ into\ Course\ class\ to\ get\ course\ sunmmay\r\n\ return\ type\:\ Course\r\n\ return\:\ course\r\n
+numComments=3

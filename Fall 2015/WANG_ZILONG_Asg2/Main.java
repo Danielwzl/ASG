@@ -1,0 +1,34 @@
+import java.io.*;
+
+/**
+ * This class is for executing this program 
+ * and input file name into command line
+ * @author  Zilong Wang 
+ * @version 1.0
+ * Last Modified: <09-19-2015> - <adding comments> <Zilong Wang>
+ */
+public class Main
+{
+    /**
+     * This is main method for executing this program and printing welcome 
+     * @param <args> <This is String type array "arguments" which will accept file name> 
+     */
+    public static void main(String args[])
+    {
+        UserInteraction ui = new UserInteraction(); //call it because it needs use print method
+        
+        if(args.length > 0) // it means args[] doesn't contian 0 elements 
+        {                   // print "file name is wrong"
+            try
+            {
+                new FileReader(new FileInputStream(args[0] + ".txt"));
+            }
+            catch(FileNotFoundException e)
+            {
+                ui.println("File is not being found, please check the file name!");
+            }
+        }
+        else ui.println("You did not input file name!"); //print this error when no file name input
+    }
+}
+

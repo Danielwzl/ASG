@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=void\ moveTo(int,\ int)
+comment0.text=Move\ to\ the\ specified\ location
+comment1.params=x
+comment1.target=void\ setX(int)
+comment2.params=y
+comment2.target=void\ setY(int)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=Return\ a\ symbol\ for\ printing\ purposes
+comment4.params=
+comment4.target=void\ move()
+comment4.text=Calculate\ and\ carry\ out\ the\ next\ move.
+comment5.params=
+comment5.target=boolean\ breed()
+comment5.text=If\ possible,\ breed.\ If\ a\ new\ Creature\ was\ born,\ return\ true.
+numComments=6

@@ -1,0 +1,46 @@
+your height(m) is:1
+your weight(kg) is:-1
+your age is:1
+your gender(male=1,female=0) is:1
+
+This program tests your BMI and BodyFat percentage.
+*******************************************************************************
+				1.BMI TEST
+	Your BMI result:-1.0
+	[<18.5]:too skinny!
+
+	[18.5-24.99]:nice body shape
+
+	[24.99-28.0]:you need work out!
+
+	[>28.0]: Obesity!
+*******************************************************************************
+	2.For your health,your standard weight is:22.0KG,if you are male.
+20.0KG,if you are female.
+*******************************************************************************
+			3.Adult body fat TEST
+	Adult body fat:	-17.17%
+				Thank you 
+your height(m) is:1
+your weight(kg) is:10
+your age is:20
+your gender(male=1,female=0) is:1
+
+This program tests your BMI and BodyFat percentage.
+*******************************************************************************
+				1.BMI TEST
+	Your BMI result:10.0
+	[<18.5]:too skinny!
+
+	[18.5-24.99]:nice body shape
+
+	[24.99-28.0]:you need work out!
+
+	[>28.0]: Obesity!
+*******************************************************************************
+	2.For your health,your standard weight is:22.0KG,if you are male.
+2000.0KG,if you are female.
+*******************************************************************************
+			3.Adult body fat TEST
+	Adult body fat:	0.40000000000000036%
+				Thank you 

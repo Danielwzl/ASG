@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ This\ is\ main\ method\ for\ executing\ this\ program\ and\ printing\ welcome\ \r\n\ @param\ <args>\ <This\ is\ String\ type\ array\ "arguments"\ which\ will\ accept\ file\ name>\ \r\n
+numComments=1

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ eat()
+comment0.text=\ If\ there\ is\ a\ prey\ creature\ adjacent,\ move\ \r\n\ there,\ eat\ it\ and\ return\ true,\ \r\n\ else\ return\ false.\ \r\n
+comment1.params=
+comment1.target=boolean\ starve()
+comment1.text=\ Return\ true\ if\ this\ predator\ has\ just\ \r\n\ starved\ to\ death.\ \r\n
+numComments=2

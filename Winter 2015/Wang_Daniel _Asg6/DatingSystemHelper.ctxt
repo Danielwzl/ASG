@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=fileName\ allClients
+comment0.target=void\ readResults(java.lang.String,\ java.util.ArrayList)
+comment0.text=\ Name\:\ readResults\r\n\ parameters\:\ fileName,\ allClients\r\n\ purpose\:\ read\ the\ clients\ information\ from\ TXT\ file\ and\ add\ them\ to\ the\ clients\ list\r\n\ return\ type\:\ void\r\n\ return\:\ none\r\n
+comment1.params=kb
+comment1.target=Client\ addClient(java.util.Scanner)
+comment1.text=\ Name\:\ addClient\r\n\ parameters\:\ kb\r\n\ purpose\:\ use\ client\ input\ to\ add\ the\ new\ client\ information\ to\ the\ clients\ list\r\n\ return\ type\:\ Client\r\n\ return\:\ newbie\r\n
+comment2.params=clientToMatch\ allClients
+comment2.target=java.lang.String\ makeMatch(Client,\ java.util.ArrayList)
+comment2.text=\ Name\:\ makeMatch\r\n\ parameters\:\ clientToMatch,\ allClients\r\n\ purpose\:\ doing\ match\ section\ for\ two\ clients\r\n\ return\ type\:\ String\r\n\ return\:\ result\r\n
+numComments=3

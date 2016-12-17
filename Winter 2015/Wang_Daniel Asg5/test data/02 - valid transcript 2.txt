@@ -1,0 +1,16 @@
+suba	1001	A+
+subb	1001	A
+subc	1001	A-
+
+subd	1001	B+
+sube	1001	B
+subf	1001	B-
+
+subg	1001	C+
+subh	1001	C
+subi	1001	C-
+
+subj	1001	D+
+subk	1001	D
+
+subl	1001	F

@@ -1,0 +1,130 @@
+import java.util.Scanner;
+
+/**
+ * This is interface for user, for doing display job
+ * @author Zilong Wang 
+ * Last Modified: <11-27-2015> - <adding comments> <Zilong Wang>
+ * @version 1.0 
+ */
+public class GamingInterface
+{
+    public static final Scanner scan = new Scanner(System.in); /**can I?*/
+    private Game game;
+    private final String DECORATION = "              ";
+
+    public GamingInterface(Game game)
+    {
+        this.game = game;
+    }
+
+    /**
+     * To print welcome page
+     */
+    public void welcome()
+    {
+        System.out.println(" ===============Welcome==============");
+        System.out.println("|                                    |");
+        System.out.println("|                                    |");
+        System.out.println("|        Snarks and Grumpkins        |");
+        System.out.println("|            \u0398  vs  \u0394                |");
+        System.out.println("|                                    |");
+        System.out.println(" ==================================== ");
+        loading();
+        pause();
+    }
+
+    /**
+     * to print loading page
+     */
+    private void loading()
+    {
+        System.out.print("The gaming is loading");
+        for(int i = 0; i < 3; i++)
+        {
+            sleepThread(500);
+            System.out.print(".");
+        }
+        sleepThread(500);
+        System.out.println();
+    }
+
+    /**
+     * to display the world
+     */
+    public void showWorld()
+    {
+        flush();
+        game.display();
+        showPopulation();
+    }
+
+    /**
+     * to show the population page
+     */
+    private void showPopulation()
+    {
+        int[] counts = game.getCount();
+        System.out.println();
+        System.out.println(DECORATION + "      |===Population===|      ");
+        System.out.println(DECORATION + "+----------------------------+");
+        System.out.println(DECORATION + "| Grumpkins | Snarks | Total |");
+        System.out.println(DECORATION + "+----------------------------+");
+        System.out.format(DECORATION + "|%7d    |%5d   |%5d  |\n", counts[1], counts[0], counts[2]);
+        System.out.println(DECORATION + "+----------------------------+");
+        System.out.format(DECORATION + "|Steps:%9d             |\n", counts[3]);
+        System.out.println(DECORATION + "+----------------------------+");
+        System.out.println("+-------------+");
+        System.out.println("| Snark: \u0398    | \n| Grumpkin: \u0394 |");
+        System.out.println("+-------------+");
+    }
+
+    /**
+     * to ask user enter the steps
+     * @return <steps that user entered>
+     * @return <default step is 1 if user enter something wrong>
+     */
+    public int askUserInput()
+    {
+        System.out.print("Enter the steps (-1 to quit): ");
+        try
+        {
+            String userChoice = scan.nextLine();
+            if(userChoice.isEmpty()) return 1;
+            return Integer.valueOf(userChoice);
+        }
+        catch(Exception e)
+        {
+            return 1;
+        }
+    }
+
+    /**
+     * to let this thread sleep certain time
+     */
+    private void sleepThread(int millSec)
+    {
+        try
+        {
+            Thread.sleep(millSec);
+        }
+        catch(Exception e)
+        {}   /**can i*/
+    }
+
+    /**
+     * to pause the game
+     */
+    private void pause()
+    {
+        System.out.println("<Game loaded! Hit enter to Start Game>");
+        scan.nextLine();
+    }
+
+    /**
+     * to flush the screen
+     */
+    private void flush()
+    {
+        System.out.print("\f");
+    }
+}

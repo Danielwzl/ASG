@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=m\ kg
+comment0.target=double\ bodyBMI(double,\ double)
+comment0.text=\ Name\:\ BMI\ calculator\u3000\r\n\ parameters\:\ height\=m;\ weight\=kg\r\n\ purpose\:\ test\ your\ BMI\ level\r\n\ return\ type\:\ double\r\n\ return\:\ BMI\ \=\ kg\ /\ (m\ *\ m)\r\n
+comment1.params=age\ m\ kg\ gender
+comment1.target=double\ adultBodyFat(int,\ double,\ double,\ int)
+comment1.text=\ Name\:adultBodyFat\r\n\ parameters\:age,\ height\=m,\ weight\=kg,\ gender(male\=1,\ female\=0)\r\n\ purpose\:to\ test\ the\ percentage\ of\ the\ fat\ of\ your\ body\r\n\ return\ type\:double\r\n\ return\:\ value\ \=\ bodyBMI(m,kg)\ *\ 1.2\ +\ 0.23\ *\ age\ -\ 5.4\ -\ 10.8\ *\ gender\r\n
+numComments=2

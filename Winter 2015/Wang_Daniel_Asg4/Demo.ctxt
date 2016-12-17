@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ battleResult()
+comment0.text=\ Name\:\ battleResult\ \r\n\ parameters\:\ null\r\n\ purpose\:\ to\ calculate\ multiply\ times\ of\ battle\ of\ this\ two\ races\r\n\ return\:\ none\r\n\ return\ type\:\ void\r\n
+comment1.params=
+comment1.target=void\ gladiatorsAtkRaca()
+comment1.text=\ Name\:\ RacaVs3\u3000\r\n\ parameters\:\ null\r\n\ purpose\:\ 3\ gladiators\ attack\ Raca\r\n\ return\:\ none\r\n\ return\ type\:\ void\r\n
+comment2.params=
+comment2.target=void\ RacaAtkGladiators()
+comment2.text=\ Name\:\ RacaVsTetraites\u3000\r\n\ parameters\:\ null\r\n\ purpose\:\ to\ generate\ the\ battle\ between\ designated\ gladiators\ and\ trolls.\ \r\n\ Raca\ attacks\ tetraites,\ and\ then\ attack\ verus\ after\ pervious\ one\ died.\r\n\ return\:\ none\r\n\ return\ type\:\ void\r\n
+comment3.params=
+comment3.target=void\ welcome()
+comment3.text=\ Name\:\ welcome()\r\n\ parameters\:\ null\r\n\ purpose\:\ to\ print\ welcome\ paragraph\r\n\ return\:\ none\r\n\ return\ type\:\ void\r\n
+numComments=4

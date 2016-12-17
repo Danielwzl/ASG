@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=subject\ number\ letterGrade
+comment0.target=Course(java.lang.String,\ int,\ java.lang.String)
+comment0.text=\ Name\:\ Course\r\n\ parameters\:\ subject,\ number,\ letterGrade\r\n\ purpose\:\ constructor\ to\ pass\ the\ value\ and\ check\ if\ grade\ is\ valid\r\n\ return\ type\:\ none\r\n\ return\:\ none\r\n
+comment1.params=
+comment1.target=java.lang.String\ getSubject()
+comment1.text=\ Name\:\ getSubject\r\n\ parameters\:\ none\r\n\ purpose\:\ get\ the\ value\ of\ class\ variable\ passed\ in\ constructor\ or\ setters\ and\ for\ test\ case\ usage\r\n\ return\ type\:\ String\r\n\ return\:\ subject\r\n
+comment2.params=subject
+comment2.target=void\ setSubject(java.lang.String)
+comment3.params=
+comment3.target=int\ getNumber()
+comment3.text=\ Name\:\ getNumber\r\n\ parameters\:\ none\r\n\ purpose\:\ get\ the\ value\ of\ class\ variable\ passed\ in\ constructor\ or\ setters\ and\ for\ test\ case\ usage\r\n\ return\ type\:\ int\r\n\ return\:\ number\r\n
+comment4.params=number
+comment4.target=void\ setNumber(int)
+comment5.params=
+comment5.target=java.lang.String\ getLetterGrade()
+comment5.text=\ Name\:\ getLetterGrade\r\n\ parameters\:\ none\r\n\ purpose\:\ get\ the\ value\ of\ class\ variable\ passed\ in\ constructor\ or\ setters\ and\ for\ test\ case\ usage\r\n\ return\ type\:\ String\r\n\ return\:\ letterGrade\r\n
+comment6.params=letterGrade
+comment6.target=void\ setLetterGrade(java.lang.String)
+comment6.text=\ Name\:\ setLetterGrade\r\n\ parameters\:\ letterGrade\r\n\ purpose\:\ set\ the\ value\ of\ calss\ variable\ and\ for\ test\ case\ usage\r\n\ return\ type\:\ String\r\n\ return\:\ letterGrade\r\n
+comment7.params=
+comment7.target=double\ getGradePoint()
+comment7.text=\ Name\:\ getLetterGrade\r\n\ parameters\:\ none\r\n\ purpose\:\ convert\ grade\ to\ related\ GPA\ value\r\n\ return\ type\:\ double\r\n\ return\:\ gpa\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\ Name\:\ toString\r\n\ parameters\:\ none\r\n\ purpose\:\ print\ course\ summary\ in\ right\ format\r\n\ return\ type\:\ String\r\n\ return\:\ result\r\n
+numComments=9
